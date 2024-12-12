@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(174, 243, 255);
+}
+
+.formulario {
+    background-color: white;
+    width: 700px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.titleForm p{
+    color:rgb(132, 0, 255);
+    text-align: center;
+    border-bottom: solid 1px rgb(168, 168, 168);
+    padding: 20px;
+}
+
+.form {
+    padding: 20px;
+}
+
+.form h1 , p{
+    padding-bottom: 10px;
+}
+
+.div-inputs input, label{
+    display: block;
+    margin: 10px 0;
+}
+
+.div-inputs input{
+    border: none;
+    border-bottom: 1px solid rgb(173, 173, 173);
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: brown;
+}

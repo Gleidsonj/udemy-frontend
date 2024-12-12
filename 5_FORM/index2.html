@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="formulario">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div id="cabecalho">
+        <p>Cadastre seu veiculo para vender mais rápido!</p>
+    </div>
+
+    <div class="formulario">
+        <form action="#">
+            <div class="titleForm"><p>FORMULÁRIO</p></div>
+
+            <div class="form">
+                <h1>Venda fácil seu carro!</h1>
+                <p>Descreva as carasteristicas e marque os opcionais que ele possui</p>
+
+                <div class="div-inputs">
+                    <label for="Titulo">Titulo do anúncio: <span>*</span></label>
+                    <input type="text" name="titulo" placeholder="Um título para anunciar seu carro">
+                </div>
+
+                <div class="div-inputs">
+                    <label for="preco">Preço: <span>*</span></label>
+                    <input type="number" name="preco" placeholder="Defina o preço">
+                </div>
+
+                <div class="div-inputs">
+                    <label for="descricao">Descrição: <span>*</span></label>
+                    <textarea name="descricao" placeholder="Aqui você pode colocar os detalhes do veículo, por exemplo: se ele tem algum arranhão"></textarea>
+                </div>
+
+                <div class="div-inputs">
+                    <label for="marca">Marca: <span>*</span></label>
+                    <input type="text" name="marca" placeholder="DIgite a marca do veículo">
+                </div>
+
+                <div class="div-inputs">
+                    <label for="modelo">Modelo: <span>*</span></label>
+                    <input type="text" name="modelo" placeholder="Digite o modelo do veículo">
+                </div>
+
+                <div class="div-inputs">
+                    <label for="km">Kilometragem: <span>*</span></label>
+                    <input type="number" name="km" placeholder="Digite a Kilometragem do veículo">
+                </div>
+
+                <div class="div-inputs">
+                    <label for="date">Data da compra:</label>
+                    <input type="date" name="date">
+                </div>
+
+                <div class="div-inputs">
+                    <label for="cambio">Tipo de câmbio: <span>*</span></label>
+                    <div>
+                        <input type="radio" value="manual">
+                        <label for="manual">Manual</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="auto">
+                        <label for="auto">Automático</label>
+                    </div>
+                </div>
+
+                <div class="div-inputs">
+                    <label for="opc">Opcionais:</label>
+                    <div class="lado-esquerdo">
+                        <div>
+                            <input type="checkbox" name="opc" value="airbag">
+                            <label for="airbag">Airbag</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="opc" value="alarme">
+                            <label for="alarme">Alarme</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="opc" value="ar_cond">
+                            <label for="ar_cond">Ar Condicionado</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="opc" value="camera_re">
+                            <label for="camera_re">Câmera de Ré</label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <input type="checkbox" name="opc"
+                            value="assPista">
+                            <label for="assPista">Asistente de Pista</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="opc" value="parKey">
+                            <label for="parKey">Partida Keyless</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="opc" value="intCel">
+                            <label for="intCel">Integração com celular</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="opc" value="banCou">
+                            <label for="banCou">Banco de couro</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-inputs">
+                    <label for="fotos">Fotos do carro: *</label>
+                    <input type="file" name="fotos" placeholder="Choose Files">
+                </div>
+            </div>
+
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
